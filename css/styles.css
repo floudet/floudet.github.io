@@ -25,20 +25,20 @@ div#media ul {
 	border:0;
 }
 div#media li {
-	margin-left:5px;
+	margin-left:5px; /* space between icons */
 	float:left; /*for IE*/
 }
 
 div#media li a {
 	display:block; 
-	height:48px;
-	width:48px;
+	height:28px;
+	width:28px;
 	background:url(../img/social_media_icons.png) no-repeat;
 	margin:0;
 	padding:0;
 }
 div#media #linkedin {
-	background-position:0 -48px;
+	background-position:0 -28px;
 }
 div#media #linkedin:hover,
 div#media #linkedin:active,
@@ -46,20 +46,20 @@ div#media #linkedin:focus {
 	background-position:0 0;
 }
 div#media #doyoubuzz {
-	background-position:-48px -48px;
+	background-position:-28px -28px;
 }
 div#media #doyoubuzz:hover,
 div#media #doyoubuzz:active,
 div#media #doyoubuzz:focus {
-	background-position:-48px 0;
+	background-position:-28px 0;
 }
 div#media #github {
-	background-position:-96px -48px;
+	background-position:-56px -28px;
 }
 div#media #github:hover,
 div#media #github:active,
 div#media #github:focus {
-	background-position:-96px 0;
+	background-position:-56px 0;
 }
 
 /*Main Layout*/

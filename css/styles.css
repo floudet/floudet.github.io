@@ -1,0 +1,121 @@
+/*
+	Document   : styles
+	Created on : Dec 27, 2015
+	Author     : Fabien Loudet
+	Description: Fabien Loudet page stylesheet
+*/
+
+BODY {
+	font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;
+	background-color:#e6e6e6;
+/*	margin:0px; */
+	text-align:center;
+	color:#333333;
+}
+
+/*Social Media Icon Links*/
+div#media span {
+	text-indent: -9999px; /* hiding text */
+	display:inline-block;
+}
+div#media ul {
+	list-style-type:none;
+/*	margin:0;*/
+	padding:0;
+	border:0;
+}
+div#media li {
+	margin-left:5px;
+	float:left; /*for IE*/
+}
+
+div#media li a {
+	display:block; 
+	height:48px;
+	width:48px;
+	background:url(../img/social_media_icons.png) no-repeat;
+	margin:0;
+	padding:0;
+}
+div#media #linkedin {
+	background-position:0 -48px;
+}
+div#media #linkedin:hover,
+div#media #linkedin:active,
+div#media #linkedin:focus {
+	background-position:0 0;
+}
+div#media #doyoubuzz {
+	background-position:-48px -48px;
+}
+div#media #doyoubuzz:hover,
+div#media #doyoubuzz:active,
+div#media #doyoubuzz:focus {
+	background-position:-48px 0;
+}
+div#media #github {
+	background-position:-96px -48px;
+}
+div#media #github:hover,
+div#media #github:active,
+div#media #github:focus {
+	background-position:-96px 0;
+}
+
+/*Main Layout*/
+div#mainColumnContainer {
+/*	width: 60%;*/
+	width:600px;
+	height:400px;
+/*	margin: 0 auto;*/
+/*	background-color:#FFA500;*/
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left:-300px;
+}
+div#leftColumn {
+	width:199px;
+	height:400px;
+/*	background-color:#A52A2A;*/
+	float:left;
+	border-right-width:1px;
+	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, transparent), color-stop(0.5, grey), color-stop(0.5, grey), color-stop(1, transparent)) 0 100%;
+	border-left-width:0px;
+	border-top-width:0px;
+	border-bottom-width:0px;
+}
+div#rightColumn {
+	width: 360px;
+	height:400px;
+/*	background-color:#FFA500;*/
+	float:left;
+	margin-left:40px;
+}
+div#leftColumn h1 {
+	font-weight: 400;
+	font-size: 26px;
+	color: #000;
+}
+div#leftColumn h3 {
+	font-weight: 200;
+	font-size: 16px;
+	color: #333333;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+.tableVertCenterParent {
+	display: table;
+	height: 400px;
+	overflow:hidden;
+	margin: auto;
+}
+.tableVertCenterChild {
+	display:table-cell;
+	vertical-align: middle;
+}
+

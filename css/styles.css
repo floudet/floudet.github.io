@@ -7,7 +7,8 @@
 
 BODY {
 	font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;
-	background-color:#e6e6e6;
+	font-size:15px;
+	background-color:#CCCCCC;
 /*	margin:0px; */
 	text-align:center;
 	color:#333333;
@@ -68,30 +69,35 @@ div#mainColumnContainer {
 	width:600px;
 	height:400px;
 /*	margin: 0 auto;*/
-/*	background-color:#FFA500;*/
+	background-color:#FFFFFF;
 	position: fixed;
 	top:50%;
 	left:50%;
 	margin-top:-200px;
 	margin-left:-300px;
+	-moz-box-shadow: 6px 6px 4px #aaa;
+	-webkit-box-shadow: 6px 6px 4px #aaa;
+	box-shadow: 6px 6px 4px #aaa;
 }
 div#leftColumn {
-	width:199px;
+	width:200px;
 	height:400px;
-/*	background-color:#A52A2A;*/
+	background-color:#e6e6e6;
 	float:left;
 	border-right-width:1px;
 	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, transparent), color-stop(0.5, grey), color-stop(0.5, grey), color-stop(1, transparent)) 0 100%;
 	border-left-width:0px;
 	border-top-width:0px;
 	border-bottom-width:0px;
+	box-sizing: border-box;
 }
 div#rightColumn {
-	width: 360px;
+	width: 340px;
 	height:400px;
-/*	background-color:#FFA500;*/
+	background-color:#FFFFFF;
 	float:left;
-	margin-left:40px;
+	margin:0 30px;
+/*	box-sizing: border-box;*/
 }
 div#leftColumn h1 {
 	font-weight: 400;
@@ -103,6 +109,9 @@ div#leftColumn h3 {
 	font-size: 16px;
 	color: #333333;
 }
+/*div#contents {
+	height:380px;
+}*/
 
 .table {
 	display: table;

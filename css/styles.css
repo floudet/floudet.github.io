@@ -7,10 +7,10 @@
 
 BODY {
 	font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;
-	font-size:14px;
-	background-color:#CCCCCC;
+/*	font-size:14px;*/
+	background-color:#cccccc;
 /*	margin:0px; */
-	text-align:center;
+/*	text-align:center;*/
 	color:#333333;
 }
 
@@ -66,15 +66,15 @@ div#media #github:focus {
 /*Main Layout*/
 div#mainColumnContainer {
 /*	width: 60%;*/
-	width:600px;
+	width:620px;
 	height:400px;
 /*	margin: 0 auto;*/
-	background-color:#FFFFFF;
+	background-color:#ffffff;
 	position: fixed;
 	top:45%;
 	left:50%;
 	margin-top:-200px;
-	margin-left:-300px;
+	margin-left:-310px;
 	-moz-box-shadow: 6px 6px 4px #aaa;
 	-webkit-box-shadow: 6px 6px 4px #aaa;
 	box-shadow: 6px 6px 4px #aaa;
@@ -90,11 +90,12 @@ div#leftColumn {
 	border-top-width:0px;
 	border-bottom-width:0px;
 	box-sizing: border-box;
+	text-align:center;
 }
 div#rightColumn {
-	width: 340px;
+	width: 360px;
 	height:400px;
-	background-color:#FFFFFF;
+	background-color:#ffffff;
 	float:left;
 	margin:0 30px;
 /*	box-sizing: border-box;*/
@@ -102,16 +103,54 @@ div#rightColumn {
 div#leftColumn h1 {
 	font-weight: 400;
 	font-size: 26px;
-	color: #000;
+	color: #000000;
 }
 div#leftColumn h3 {
 	font-weight: 200;
 	font-size: 16px;
 	color: #333333;
 }
-/*div#contents {
-	height:380px;
-}*/
+div#rightColumn h2 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 0px;
+	padding-bottom: 5px;
+}
+
+div#contents {
+	font-size: 12px;
+}
+
+div#contents ul {
+/*	font-size: 12px;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#contents li {
+	margin-left: 10px;
+	line-height: 16px;	
+	margin-bottom:8px;
+	text-align: justify;
+}
+div#contents p {
+	margin-left: 10px;
+	line-height: 15px;
+	text-align: justify;
+}
+
+div#contents a {
+	text-decoration: none;
+	color: #006699;
+}
+div#contents a:hover, a:active, a:focus {
+	text-decoration: underline;	
+}
+
+div#contents section {
+	padding-bottom: 10px; 
+}
 
 .table {
 	display: table;

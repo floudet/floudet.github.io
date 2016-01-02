@@ -7,98 +7,90 @@
 
 BODY {
 	font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;
-/*	font-size:14px;*/
-	background-color:#cccccc;
-/*	margin:0px; */
-/*	text-align:center;*/
-	color:#333333;
+	background-color: #cccccc;
+	color: #333333;
 }
 
 /*Social Media Icon Links*/
 div#media span {
 	text-indent: -9999px; /* hiding text */
-	display:inline-block;
+	display: inline-block;
 }
 div#media ul {
-	list-style-type:none;
-/*	margin:0;*/
-	padding:0;
-	border:0;
+	list-style-type: none;
+	padding: 0;
+	border: 0;
 }
 div#media li {
-	margin-left:5px; /* space between icons */
-	float:left; /*for IE*/
+	margin-left: 5px; /* space between icons */
+	float: left; /*for IE*/
 }
-
 div#media li a {
-	display:block; 
-	height:28px;
-	width:28px;
-	background:url(../img/social_media_icons.png) no-repeat;
-	margin:0;
-	padding:0;
+	display: block; 
+	height: 28px;
+	width: 28px;
+	background: url(../img/social_media_icons.png) no-repeat;
+	margin: 0;
+	padding: 0;
 }
 div#media #linkedin {
-	background-position:0 -28px;
+	background-position: 0 -28px;
 }
 div#media #linkedin:hover,
 div#media #linkedin:active,
 div#media #linkedin:focus {
-	background-position:0 0;
+	background-position: 0 0;
 }
 div#media #doyoubuzz {
-	background-position:-28px -28px;
+	background-position: -28px -28px;
 }
 div#media #doyoubuzz:hover,
 div#media #doyoubuzz:active,
 div#media #doyoubuzz:focus {
-	background-position:-28px 0;
+	background-position: -28px 0;
 }
 div#media #github {
-	background-position:-56px -28px;
+	background-position: -56px -28px;
 }
 div#media #github:hover,
 div#media #github:active,
 div#media #github:focus {
-	background-position:-56px 0;
+	background-position: -56px 0;
 }
 
 /*Main Layout*/
 div#mainColumnContainer {
-/*	width: 60%;*/
-	width:620px;
-	height:400px;
-/*	margin: 0 auto;*/
-	background-color:#ffffff;
+	width: 620px;
+	height: 400px;
+	background-color: #ffffff;
 	position: fixed;
-	top:45%;
-	left:50%;
-	margin-top:-200px;
-	margin-left:-310px;
+	top: 45%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -310px;
 	-moz-box-shadow: 6px 6px 4px #aaa;
 	-webkit-box-shadow: 6px 6px 4px #aaa;
 	box-shadow: 6px 6px 4px #aaa;
 }
 div#leftColumn {
-	width:200px;
-	height:400px;
-	background-color:#e6e6e6;
-	float:left;
-	border-right-width:1px;
+	width: 200px;
+	height: 400px;
+	background-color: #e6e6e6;
+	float: left;
+	border-right-width: 1px;
 	-webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, transparent), color-stop(0.5, grey), color-stop(0.5, grey), color-stop(1, transparent)) 0 100%;
-	border-left-width:0px;
-	border-top-width:0px;
-	border-bottom-width:0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
 	box-sizing: border-box;
-	text-align:center;
+	text-align: center;
 }
 div#rightColumn {
 	width: 360px;
-	height:400px;
-	background-color:#ffffff;
-	float:left;
-	margin:0 30px;
-/*	box-sizing: border-box;*/
+	height: 400px;
+	background-color: #ffffff;
+	float: left;
+	margin: 0 30px;
 }
 div#leftColumn h1 {
 	font-weight: 400;
@@ -122,7 +114,6 @@ div#contents {
 }
 
 div#contents ul {
-/*	font-size: 12px;*/
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -131,7 +122,7 @@ div#contents ul {
 div#contents li {
 	margin-left: 10px;
 	line-height: 16px;	
-	margin-bottom:8px;
+	margin-bottom: 8px;
 	text-align: justify;
 }
 div#contents p {
@@ -159,11 +150,11 @@ div#contents section {
 .tableVertCenterParent {
 	display: table;
 	height: 400px;
-	overflow:hidden;
+	overflow: hidden;
 	margin: auto;
 }
 .tableVertCenterChild {
-	display:table-cell;
+	display: table-cell;
 	vertical-align: middle;
 }
 

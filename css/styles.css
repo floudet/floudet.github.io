@@ -165,6 +165,9 @@ article li {
 	margin-bottom: 8px;
 	text-align: justify;
 }
+article li span {
+	color: #cc3333;
+}
 article p {
 	margin-left: 10px;
 	line-height: 15px;
@@ -199,3 +202,4 @@ footer {
 	width: 120px;
 	margin-bottom: 30px;
 }
+

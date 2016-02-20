@@ -84,50 +84,34 @@ small {
 }
 
 /*Social Media Icon Links*/
-div#media span {
-	text-indent: -9999px; /* hiding text */
-	display: inline-block;
+div#media {
+	font-size: 20px;
 }
-div#media ul {
-	list-style-type: none;
-	padding: 0;
-	border: 0;
-}
+
 div#media li {
-	margin-left: 5px; /* space between icons */
-	float: left; /*for IE*/
+	display: inline-block;	
 }
-div#media li a {
-	display: block; 
-	height: 28px;
-	width: 28px;
-	background: url(../img/social_media_icons.png) no-repeat;
-	margin: 0;
-	padding: 0;
+
+div#media a {
+	text-decoration: none;
+	color: #7b7b7b;
+	    -webkit-transition: color 300ms linear;
+	    -moz-transition: color 300ms linear;
+	    -ms-transition: color 300ms linear;
+	    -o-transition: color 300ms linear;
+	    transition: color 300ms linear;
+	    transition-property: color;
+	    transition-duration: 300ms;
+	    transition-timing-function: linear;
+	    transition-delay: initial;
 }
-div#media #linkedin {
-	background-position: 0 -28px;
-}
-div#media #linkedin:hover,
-div#media #linkedin:active,
-div#media #linkedin:focus {
-	background-position: 0 0;
-}
-div#media #doyoubuzz {
-	background-position: -28px -28px;
-}
-div#media #doyoubuzz:hover,
-div#media #doyoubuzz:active,
-div#media #doyoubuzz:focus {
-	background-position: -28px 0;
-}
-div#media #github {
-	background-position: -56px -28px;
-}
-div#media #github:hover,
-div#media #github:active,
-div#media #github:focus {
-	background-position: -56px 0;
+
+div#media a:hover,
+div#media a:active,
+div#media a:focus {
+	color: #ffffff;
+	background-color: #006699;
+	border-radius: 30%;
 }
 
 /*Main Layout*/
@@ -191,13 +175,8 @@ footer {
 	text-align: center;
 }
 
-.table {
-	display: table;
-	margin: 0 auto;
-}
-
 .avatar {
-	border-radius: 60px;
+	border-radius: 50%;
 	height: 120px;
 	width: 120px;
 	margin-bottom: 30px;

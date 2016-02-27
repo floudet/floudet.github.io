@@ -115,7 +115,36 @@ div#media a:focus {
 }
 
 /*Main Layout*/
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 481px) {
+main {
+	width: auto;
+	padding-bottom: 20px;
+	margin:5% 25px 0;
+	border-radius: 20px;
+	background: #fcfcfc; /* rgb(252,252,252) */
+	background: linear-gradient(to bottom, #7d7d7d 0%, #7d7d7d 28%, #fcfcfc 35%, #fcfcfc 100%);
+}
+header {
+	height: 190px;
+	padding: 30px 25px 0 25px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background: #333333; /* for browsers that don't support gradients */
+	background: linear-gradient(to bottom, #1d1d1d, #333333 50%, #1d1d1d 80%);
+	text-align: center;
+}
+div#avatar {
+	display: none;
+}
+article {
+	margin: 0 30px;
+	padding-top: 30px;
+	background: rgb(252,252,252); /* for browsers that don't support rgba */
+	background: rgba(252,252,252,0); 
+	font-size: 12px;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 640px) {
 main {
 	width: 420px;
 	height: 600px;

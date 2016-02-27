@@ -115,6 +115,42 @@ div#media a:focus {
 }
 
 /*Main Layout*/
+@media only screen and (max-width: 640px) {
+main {
+	width: 420px;
+	height: 600px;
+	margin:5% auto 0;
+	border-radius: 20px;
+	background: #fcfcfc; /* rgb(252,252,252) */
+	background: linear-gradient(to bottom, #7d7d7d 0%, #7d7d7d 28%, #fcfcfc 35%, #fcfcfc 100%);
+}
+header {
+	height: 190px;
+	padding: 30px 25px 0 25px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background: #333333; /* for browsers that don't support gradients */
+	background: linear-gradient(to bottom, #1d1d1d, #333333 50%, #1d1d1d 80%);
+	text-align: center;
+}
+div#avatar {
+	float:left;
+	width: 40%;
+	padding-top: 5px;
+}
+div#info {
+	float:left;
+	width: 60%;
+}
+article {
+	margin: 0 30px;
+	padding-top: 20px;
+	background: rgb(252,252,252); /* for browsers that don't support rgba */
+	background: rgba(252,252,252,0); 
+	font-size: 12px;
+}
+}
+@media screen and (min-width: 641px) {
 main {
 	width: 620px;
 	height: 400px;
@@ -131,7 +167,7 @@ header {
 	box-sizing: border-box;
 	border-radius: 20px;
 	background: #333333; /* for browsers that don't support gradients */
-	background: linear-gradient(to bottom, #1d1d1d, #333333 15%, #1d1d1d 80%);
+	background: linear-gradient(to bottom, #1d1d1d, #333333 26%, #1d1d1d 80%);
 	text-align: center;
 }
 article {
@@ -143,6 +179,7 @@ article {
 	background: rgb(252,252,252); /* for browsers that don't support rgba */
 	background: rgba(252,252,252,0); 
 	font-size: 12px;
+}
 }
 article li {
 	margin-left: 10px;

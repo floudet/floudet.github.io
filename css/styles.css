@@ -222,6 +222,7 @@ article li span {
 article p {
 	margin-left: 10px;
 	line-height: 15px;
+	margin-bottom: 8px;
 	text-align: justify;
 }
 
